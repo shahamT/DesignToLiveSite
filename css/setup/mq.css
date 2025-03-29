@@ -25,6 +25,13 @@
 }
 
 @media (width < 660px) {
+   
+    /* jeader height  */
+
+    :root {
+        --header-height: 74px;
+    }
+    
     /* sticky header */
 
     .main-header {
