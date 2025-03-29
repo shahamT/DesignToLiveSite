@@ -25,6 +25,12 @@
 }
 
 @media (width < 660px) {
+    /* sticky header */
+
+    .main-header {
+        position: sticky;
+        top: 0px;
+    }
 
     /* cards layout */
 
@@ -77,7 +83,7 @@
     /* navigation */
 
     .desktop-nav-btns {
-         
+
         position: fixed;
         inset: 0 0 auto auto;
         z-index: 2;
@@ -86,7 +92,7 @@
         flex-direction: column;
         justify-content: start !important;
 
-        height: 100dvh;
+        height: 100vh;
         width: 100dvw;
 
         background-color: rgba(41, 41, 41, 0.97);
@@ -94,7 +100,7 @@
         transition: transform 0.6s;
     }
 
-    .nav-in{
+    .nav-in {
         transform: translate(0%);
     }
 
