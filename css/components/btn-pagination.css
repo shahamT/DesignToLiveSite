@@ -1,0 +1,16 @@
+.btn-pagination {
+    padding: 0px;
+
+    font-size: 1.15rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--clr-primary-base--3);
+    text-shadow: 0 0 0.7px var(--clr-primary-base--3);
+
+
+}
+
+.btn-pagination:hover {
+    color: var(--clr-primary-base--1)
+}

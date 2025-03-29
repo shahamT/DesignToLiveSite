@@ -1,0 +1,26 @@
+.main-header{
+    position: relative;
+
+    
+    height: var(--header-height);
+    
+    background-color: var(--clr-primary-base);
+
+}
+
+.main-header .logo {
+    margin-inline-end: 16px;
+}
+
+.main-header::after {
+    content: '';
+
+    position: absolute;
+    bottom: 0px;
+    
+    height: 6px;
+    width: 100%;
+    background-color: var(--clr-primary-base-1)
+    ;
+
+}

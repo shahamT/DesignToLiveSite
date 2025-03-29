@@ -1,0 +1,21 @@
+.card img{
+    grid-row: 1/-1;
+}
+
+.card .card-title{
+padding-block-end: 1rem;
+}
+
+.card .card-txt {
+    align-self: center;
+    margin-block-end: 1em;
+
+}
+
+.card .btn-read-more{
+    justify-self: start;
+}
+
+.card>*:not(img){
+    padding-inline-end: 24px;
+}

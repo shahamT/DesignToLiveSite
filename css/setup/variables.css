@@ -1,0 +1,22 @@
+:root {
+
+    /* Pallete */
+    --clr-primary-base--9: rgb(248, 248, 248);
+    --clr-primary-base--8: rgb(229, 229, 229);
+    --clr-primary-base--7: rgb(225, 224, 224);
+    --clr-primary-base--6: rgb(194, 193, 193);
+    --clr-primary-base--5: rgb(166, 166, 166);
+    --clr-primary-base--4: rgb(146.99985, 146.42100000000002, 146.42100000000002);
+    --clr-primary-base--3: rgb(129, 129, 129);
+    --clr-primary-base--2: rgb(96, 96, 96);
+    --clr-primary-base--1: rgb(79, 78, 78);
+    --clr-primary-base: rgb(41, 41, 41);
+    --clr-primary-base-1: rgb(30.00000011175871,30.00000011175871,30.00000011175871);
+
+    --clr-light-base: rgb(255, 255, 255);
+
+    --clr-brand-base: rgb(88, 201, 58);
+
+
+    --header-height: 130px;
+}

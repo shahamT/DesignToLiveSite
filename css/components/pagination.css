@@ -1,0 +1,6 @@
+.pagination{
+    padding-block: 1.75rem;
+padding-inline: 28px;
+
+    border-block-start: 1px solid var(--clr-primary-base--8);
+}

@@ -1,0 +1,33 @@
+.btn-read-more {
+    padding-block: 0.5em;
+    padding-inline: 1.75em;
+    border: 2px solid var(--clr-primary-base--6);
+
+
+    font-size: 1em;
+    color: var(--clr-primary-base--6);
+    border-radius: 50px;
+
+}
+
+.btn-read-more:hover {
+    color: var(--clr-brand-base);
+    border-color: var(--clr-brand-base);
+    padding-inline-end: 3em;
+}
+
+.btn-read-more span {
+    position: absolute;
+    
+    display: inline-block;
+    transform: translate(-20px) translateY(2px);
+    
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.btn-read-more:hover span{
+    opacity: 1;
+
+    transform: translateX(6px) translateY(2px);
+}

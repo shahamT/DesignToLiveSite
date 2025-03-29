@@ -1,0 +1,56 @@
+.main-nav ul li a {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: var(--header-height);
+    width: var(--header-height);
+    border-left: 1px solid var(--clr-primary-base-1);
+
+    color: var(--clr-light-base);
+    font-weight: 600;
+
+    transition: 0.2s;
+}
+
+.main-nav ul li:last-child a {
+    border-right: 1px solid var(--clr-primary-base-1);
+
+}
+
+.main-nav ul li a:hover {
+    color: var(--clr-brand-base);
+}
+
+.main-nav ul li a::before {
+    content: '';
+
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+
+    height: 6px;
+    width: var(--header-height);
+    background-color: var(--clr-brand-base);
+
+    opacity: 0;
+    transition: 0.2s;
+
+}
+
+.main-nav ul li a:hover::before {
+opacity: 1;
+}
+
+/* Mobile btn */
+
+.mobile-nav-btn li{
+font-size: 1.5rem;
+display: none;
+}
+
+li.mobile-close-nav-btn {
+    display: none;
+}
